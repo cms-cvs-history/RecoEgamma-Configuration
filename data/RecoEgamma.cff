@@ -1,0 +1,6 @@
+include "RecoEgamma/Configuration/data/electronSequence.cff"
+include "RecoEgamma/Configuration/data/photonSequence.cff"
+
+sequence egammareco = {electronSequence,photonSequence}
+
+#

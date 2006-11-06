@@ -1,0 +1,16 @@
+block RecoEgammaFEVT = {
+  untracked vstring outputCommands = {
+  }		
+}	
+
+#RECO content
+block RecoEgammaRECO = {
+  untracked vstring outputCommands = {
+  }		
+}	
+
+#AOD content
+block RecoEgammaAOD = {
+  untracked vstring outputCommands = {
+  }		
+}	

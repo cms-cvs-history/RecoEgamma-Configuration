@@ -5,7 +5,7 @@ block RecoEgammaFEVT = {
     "keep recoElectrons_pixelMatchElectrons_*_*",
     "keep recoElectrons_siStripElectronToTrackAssociator_*_*",
     "keep recoSiStripElectrons_siStripElectrons_*_*",
-    "keep *_electronPixelSeeds_*_*"
+    "keep *_electronPixelSeeds_*_*",
 
 #Photons
     "keep *_photons_*_*",

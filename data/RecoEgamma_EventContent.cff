@@ -1,16 +1,42 @@
+# Full Event content 
 block RecoEgammaFEVT = {
   untracked vstring outputCommands = {
+#Electrons
+    "keep recoElectrons_pixelMatchElectrons_*_*",
+    "keep recoElectrons_siStripElectronToTrackAssociator_*_*",
+    "keep recoSiStripElectrons_siStripElectrons_*_*",
+    "keep *_electronPixelSeeds_*_*"
+
+#Photons
+    "keep *_photons_*_*",
+    "keep *_correctedPhotons_*_*"
   }		
 }	
 
-#RECO content
+# RECO content
 block RecoEgammaRECO = {
   untracked vstring outputCommands = {
-  }		
+#Electrons
+    "keep recoElectrons_pixelMatchElectrons_*_*",
+    "keep recoElectrons_siStripElectronToTrackAssociator_*_*",
+    "keep recoSiStripElectrons_siStripElectrons_*_*",
+
+#Photons
+    "keep *_photons_*_*",
+    "keep *_correctedPhotons_*_*"
+  }	
 }	
 
-#AOD content
+# AOD content
 block RecoEgammaAOD = {
   untracked vstring outputCommands = {
-  }		
-}	
+#Electrons
+    "keep recoElectrons_pixelMatchElectrons_*_*",
+    "keep recoElectrons_siStripElectronToTrackAssociator_*_*",
+    "keep recoSiStripElectrons_siStripElectrons_*_*",
+
+#Photons
+    "keep *_photons_*_*",
+    "keep *_correctedPhotons_*_*"
+  }
+}

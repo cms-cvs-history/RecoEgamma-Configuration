@@ -2,9 +2,9 @@
 block RecoEgammaFEVT = {
   untracked vstring outputCommands = {
 #Electrons
-    "keep recoElectrons_pixelMatchElectrons_*_*",
-    "keep recoElectrons_siStripElectronToTrackAssociator_*_*",
-    "keep recoSiStripElectrons_siStripElectrons_*_*",
+    "keep *_pixelMatchElectrons_*_*",
+    "keep *_siStripElectronToTrackAssociator_*_*",
+    "keep *_siStripElectrons_*_*",
     "keep *_electronPixelSeeds_*_*",
 
 #Photons
@@ -17,9 +17,9 @@ block RecoEgammaFEVT = {
 block RecoEgammaRECO = {
   untracked vstring outputCommands = {
 #Electrons
-    "keep recoElectrons_pixelMatchElectrons_*_*",
-    "keep recoElectrons_siStripElectronToTrackAssociator_*_*",
-    "keep recoSiStripElectrons_siStripElectrons_*_*",
+    "keep *_pixelMatchElectrons_*_*",
+    "keep *_siStripElectronToTrackAssociator_*_*",
+    "keep *_siStripElectrons_*_*",
 
 #Photons
     "keep *_photons_*_*",
@@ -31,9 +31,9 @@ block RecoEgammaRECO = {
 block RecoEgammaAOD = {
   untracked vstring outputCommands = {
 #Electrons
-    "keep recoElectrons_pixelMatchElectrons_*_*",
-    "keep recoElectrons_siStripElectronToTrackAssociator_*_*",
-    "keep recoSiStripElectrons_siStripElectrons_*_*",
+    "keep *_pixelMatchElectrons_*_*",
+    "keep *_siStripElectronToTrackAssociator_*_*",
+    "keep *_siStripElectrons_*_*",
 
 #Photons
     "keep *_photons_*_*",

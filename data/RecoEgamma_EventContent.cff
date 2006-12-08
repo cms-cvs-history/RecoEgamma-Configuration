@@ -4,6 +4,9 @@ block RecoEgammaFEVT = {
 #Electrons
     "keep *_pixelMatchElectrons_*_*",
     "keep *_siStripElectronToTrackAssociator_*_*",
+    "keep *_egammaCtfWithMaterialTracks_*_*",
+    "keep *_egammaCtfWithMaterialTracksBarrel_*_*",
+    "keep *_egammaCtfWithMaterialTracksEndcap_*_*",
     "keep *_siStripElectrons_*_*",
     "keep *_electronPixelSeeds_*_*",
 
@@ -20,6 +23,10 @@ block RecoEgammaRECO = {
     "keep *_pixelMatchElectrons_*_*",
     "keep *_siStripElectronToTrackAssociator_*_*",
     "keep *_siStripElectrons_*_*",
+    "keep *_egammaCtfWithMaterialTracks_*_*",
+    "keep *_egammaCtfWithMaterialTracksBarrel_*_*",
+    "keep *_egammaCtfWithMaterialTracksEndcap_*_*",
+
 
 #Photons
     "keep *_photons_*_*",
@@ -34,6 +41,9 @@ block RecoEgammaAOD = {
     "keep *_pixelMatchElectrons_*_*",
     "keep *_siStripElectronToTrackAssociator_*_*",
     "keep *_siStripElectrons_*_*",
+    "keep recoTracks_egammaCtfWithMaterialTracks_*_*",
+    "keep recoTracks_egammaCtfWithMaterialTracksBarrel_*_*",
+    "keep recoTracks_egammaCtfWithMaterialTracksEndcap_*_*",
 
 #Photons
     "keep *_photons_*_*",

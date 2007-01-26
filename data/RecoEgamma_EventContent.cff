@@ -2,7 +2,7 @@
 block RecoEgammaFEVT = {
   untracked vstring outputCommands = {
 #Electrons
-    "keep *_pixelMatchElectrons_*_*",
+    "keep *_pixelMatchGsfElectrons_*_*",
     "keep *_siStripElectronToTrackAssociator_*_*",
     "keep *_egammaCtfWithMaterialTracks_*_*",
     "keep *_egammaCtfWithMaterialTracksBarrel_*_*",
@@ -20,7 +20,7 @@ block RecoEgammaFEVT = {
 block RecoEgammaRECO = {
   untracked vstring outputCommands = {
 #Electrons
-    "keep *_pixelMatchElectrons_*_*",
+    "keep *_pixelMatchGsfElectrons_*_*",
     "keep *_siStripElectronToTrackAssociator_*_*",
     "keep *_siStripElectrons_*_*",
     "keep *_egammaCtfWithMaterialTracks_*_*",
@@ -38,7 +38,7 @@ block RecoEgammaRECO = {
 block RecoEgammaAOD = {
   untracked vstring outputCommands = {
 #Electrons
-    "keep *_pixelMatchElectrons_*_*",
+    "keep *_pixelMatchGsfElectrons_*_*",
     "keep *_siStripElectronToTrackAssociator_*_*",
     "keep *_siStripElectrons_*_*",
     "keep recoTracks_egammaCtfWithMaterialTracks_*_*",

@@ -13,6 +13,9 @@ block RecoEgammaFEVT = {
 #Photons
     "keep *_photons_*_*",
     "keep *_correctedPhotons_*_*"
+    "keep *_convertedPhotons_*_*"
+    "keep *_ckfOutInTracksFromConversions_*_*"
+    "keep *_ckfInOutTracksFromConversions_*_*"
   }		
 }	
 
@@ -22,15 +25,23 @@ block RecoEgammaRECO = {
 #Electrons
     "keep *_pixelMatchGsfElectrons_*_*",
     "keep *_siStripElectronToTrackAssociator_*_*",
-    "keep *_siStripElectrons_*_*",
-    "keep *_egammaCtfWithMaterialTracks_*_*",
-    "keep *_egammaCtfWithMaterialTracksBarrel_*_*",
-    "keep *_egammaCtfWithMaterialTracksEndcap_*_*",
-
+    "keep recoSiStripElectrons_siStripElectrons_*_*",
+    "keep recoTracks_egammaCtfWithMaterialTracks_*_*",
+    "keep recoTracks_egammaCtfWithMaterialTracksBarrel_*_*",
+    "keep recoTracks_egammaCtfWithMaterialTracksEndcap_*_*",
+    "keep recoTrackExtras_egammaCtfWithMaterialTracks_*_*",
+    "keep recoTrackExtras_egammaCtfWithMaterialTracksBarrel_*_*",
+    "keep recoTrackExtras_egammaCtfWithMaterialTracksEndcap_*_*",
+    "keep *_electronPixelSeeds_*_*",
 
 #Photons
     "keep *_photons_*_*",
     "keep *_correctedPhotons_*_*"
+    "keep *_convertedPhotons_*_*"
+    "keep recoTracks_ckfOutInTracksFromConversions_*_*"
+    "keep recoTracks_ckfInOutTracksFromConversions_*_*"
+    "keep recoTrackExtras_ckfOutInTracksFromConversions_*_*"
+    "keep recoTrackExtras_ckfInOutTracksFromConversions_*_*"
   }	
 }	
 
@@ -40,7 +51,7 @@ block RecoEgammaAOD = {
 #Electrons
     "keep *_pixelMatchGsfElectrons_*_*",
     "keep *_siStripElectronToTrackAssociator_*_*",
-    "keep *_siStripElectrons_*_*",
+    "keep recoSiStripElectrons_siStripElectrons_*_*",
     "keep recoTracks_egammaCtfWithMaterialTracks_*_*",
     "keep recoTracks_egammaCtfWithMaterialTracksBarrel_*_*",
     "keep recoTracks_egammaCtfWithMaterialTracksEndcap_*_*",
@@ -48,5 +59,8 @@ block RecoEgammaAOD = {
 #Photons
     "keep *_photons_*_*",
     "keep *_correctedPhotons_*_*"
+    "keep *_convertedPhotons_*_*"
+    "keep recoTracks_ckfOutInTracksFromConversions_*_*"
+    "keep recoTracks_ckfInOutTracksFromConversions_*_*"
   }
 }

@@ -12,9 +12,9 @@ block RecoEgammaFEVT = {
 
 #Photons
     "keep *_photons_*_*",
-    "keep *_correctedPhotons_*_*"
-    "keep *_convertedPhotons_*_*"
-    "keep *_ckfOutInTracksFromConversions_*_*"
+    "keep *_correctedPhotons_*_*",
+    "keep *_convertedPhotons_*_*",
+    "keep *_ckfOutInTracksFromConversions_*_*",
     "keep *_ckfInOutTracksFromConversions_*_*"
   }		
 }	
@@ -36,11 +36,11 @@ block RecoEgammaRECO = {
 
 #Photons
     "keep *_photons_*_*",
-    "keep *_correctedPhotons_*_*"
-    "keep *_convertedPhotons_*_*"
-    "keep recoTracks_ckfOutInTracksFromConversions_*_*"
-    "keep recoTracks_ckfInOutTracksFromConversions_*_*"
-    "keep recoTrackExtras_ckfOutInTracksFromConversions_*_*"
+    "keep *_correctedPhotons_*_*",
+    "keep *_convertedPhotons_*_*",
+    "keep recoTracks_ckfOutInTracksFromConversions_*_*",
+    "keep recoTracks_ckfInOutTracksFromConversions_*_*",
+    "keep recoTrackExtras_ckfOutInTracksFromConversions_*_*",
     "keep recoTrackExtras_ckfInOutTracksFromConversions_*_*"
   }	
 }	
@@ -58,9 +58,9 @@ block RecoEgammaAOD = {
 
 #Photons
     "keep *_photons_*_*",
-    "keep *_correctedPhotons_*_*"
-    "keep *_convertedPhotons_*_*"
-    "keep recoTracks_ckfOutInTracksFromConversions_*_*"
+    "keep *_correctedPhotons_*_*",
+    "keep *_convertedPhotons_*_*",
+    "keep recoTracks_ckfOutInTracksFromConversions_*_*",
     "keep recoTracks_ckfInOutTracksFromConversions_*_*"
   }
 }

@@ -2,6 +2,7 @@ include "RecoEgamma/EgammaElectronProducers/data/electronSequence.cff"
 include "RecoEgamma/EgammaPhotonProducers/data/photonSequence.cff"
 include "RecoEgamma/EgammaPhotonProducers/data/convertedPhotonSequence.cff"
 
-sequence egammareco = {electronSequence,photonSequence,convertedPhotonSequence}
+#sequence egammareco = {electronSequence,photonSequence,convertedPhotonSequence}
+sequence egammareco = {electronSequence,photonSequence}
 
 #

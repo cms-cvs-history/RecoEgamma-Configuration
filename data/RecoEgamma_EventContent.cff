@@ -14,8 +14,12 @@ block RecoEgammaFEVT = {
     "keep *_photons_*_*",
     "keep *_correctedPhotons_*_*",
     "keep *_convertedPhotons_*_*",
-    "keep *_ckfOutInTracksFromConversions_*_*",
-    "keep *_ckfInOutTracksFromConversions_*_*"
+    "keep *_conversionTrackCandidates_*_*",
+    "keep *_ckfOutInTracksFromConversionsBarrel_*_*",
+    "keep *_ckfInOutTracksFromConversionsBarrel_*_*",
+    "keep *_ckfOutInTracksFromConversionsEndcap_*_*",
+    "keep *_ckfInOutTracksFromConversionsEndcap_*_*"
+
   }		
 }	
 
@@ -38,10 +42,15 @@ block RecoEgammaRECO = {
     "keep *_photons_*_*",
     "keep *_correctedPhotons_*_*",
     "keep *_convertedPhotons_*_*",
-    "keep recoTracks_ckfOutInTracksFromConversions_*_*",
-    "keep recoTracks_ckfInOutTracksFromConversions_*_*",
-    "keep recoTrackExtras_ckfOutInTracksFromConversions_*_*",
-    "keep recoTrackExtras_ckfInOutTracksFromConversions_*_*"
+    "keep *_conversionTrackCandidates_*_*",
+    "keep recoTracks_ckfOutInTracksFromConversionsBarrel_*_*",
+    "keep recoTracks_ckfInOutTracksFromConversionsBarrel_*_*",
+    "keep recoTracks_ckfOutInTracksFromConversionsEndcap_*_*",
+    "keep recoTracks_ckfInOutTracksFromConversionsEndcap_*_*",
+    "keep recoTrackExtras_ckfOutInTracksFromConversionsBarrel_*_*",
+    "keep recoTrackExtras_ckfInOutTracksFromConversionsBarrel_*_*",
+    "keep recoTrackExtras_ckfOutInTracksFromConversionsEndcap_*_*",
+    "keep recoTrackExtras_ckfInOutTracksFromConversionsEndcap_*_*"
   }	
 }	
 
@@ -60,7 +69,10 @@ block RecoEgammaAOD = {
     "keep *_photons_*_*",
     "keep *_correctedPhotons_*_*",
     "keep *_convertedPhotons_*_*",
-    "keep recoTracks_ckfOutInTracksFromConversions_*_*",
-    "keep recoTracks_ckfInOutTracksFromConversions_*_*"
+    "keep *_conversionTrackCandidates_*_*",
+    "keep recoTracks_ckfOutInTracksFromConversionsBarrel_*_*",
+    "keep recoTracks_ckfInOutTracksFromConversionsBarrel_*_*",
+    "keep recoTracks_ckfOutInTracksFromConversionsEndcap_*_*",
+    "keep recoTracks_ckfInOutTracksFromConversionsEndcap_*_*"
   }
 }

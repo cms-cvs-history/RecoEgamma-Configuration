@@ -45,6 +45,8 @@ block RecoEgammaRECO = {
     "keep recoGsfTrackExtras_pixelMatchGsfFitEndcap_*_*",
     "keep recoTrackExtras_pixelMatchGsfFitBarrel_*_*",
     "keep recoTrackExtras_pixelMatchGsfFitEndcap_*_*",
+    "keep TrackingRecHitsOwned_pixelMatchGsfFitBarrel_*_*",
+    "keep TrackingRecHitsOwned_pixelMatchGsfFitEndcap_*_*",
 
 #Photons
     "keep *_photons_*_*",
@@ -59,6 +61,10 @@ block RecoEgammaRECO = {
     "keep recoTrackExtras_ckfInOutTracksFromConversionsBarrel_*_*",
     "keep recoTrackExtras_ckfOutInTracksFromConversionsEndcap_*_*",
     "keep recoTrackExtras_ckfInOutTracksFromConversionsEndcap_*_*"
+    "keep TrackingRecHitsOwned_ckfOutInTracksFromConversionsBarrel_*_*",
+    "keep TrackingRecHitsOwned_ckfInOutTracksFromConversionsBarrel_*_*",
+    "keep TrackingRecHitsOwned_ckfOutInTracksFromConversionsEndcap_*_*",
+    "keep TrackingRecHitsOwned_ckfInOutTracksFromConversionsEndcap_*_*"
   }	
 }	
 

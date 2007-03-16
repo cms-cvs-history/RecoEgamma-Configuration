@@ -9,13 +9,19 @@ block RecoEgammaFEVT = {
     "keep *_egammaCtfWithMaterialTracksEndcap_*_*",
     "keep *_siStripElectrons_*_*",
     "keep *_electronPixelSeeds_*_*",
+    "keep *_pixelMatchGsfFitBarrel_*_*",
+    "keep *_pixelMatchGsfFitEndcap_*_*",
 
 #Photons
     "keep *_photons_*_*",
     "keep *_correctedPhotons_*_*",
     "keep *_convertedPhotons_*_*",
-    "keep *_ckfOutInTracksFromConversions_*_*",
-    "keep *_ckfInOutTracksFromConversions_*_*"
+    "keep *_conversionTrackCandidates_*_*",
+    "keep *_ckfOutInTracksFromConversionsBarrel_*_*",
+    "keep *_ckfInOutTracksFromConversionsBarrel_*_*",
+    "keep *_ckfOutInTracksFromConversionsEndcap_*_*",
+    "keep *_ckfInOutTracksFromConversionsEndcap_*_*"
+
   }		
 }	
 
@@ -33,15 +39,32 @@ block RecoEgammaRECO = {
     "keep recoTrackExtras_egammaCtfWithMaterialTracksBarrel_*_*",
     "keep recoTrackExtras_egammaCtfWithMaterialTracksEndcap_*_*",
     "keep *_electronPixelSeeds_*_*",
+    "keep recoGsfTracks_pixelMatchGsfFitBarrel_*_*",
+    "keep recoGsfTracks_pixelMatchGsfFitEndcap_*_*",
+    "keep recoGsfTrackExtras_pixelMatchGsfFitBarrel_*_*",
+    "keep recoGsfTrackExtras_pixelMatchGsfFitEndcap_*_*",
+    "keep recoTrackExtras_pixelMatchGsfFitBarrel_*_*",
+    "keep recoTrackExtras_pixelMatchGsfFitEndcap_*_*",
+    "keep TrackingRecHitsOwned_pixelMatchGsfFitBarrel_*_*",
+    "keep TrackingRecHitsOwned_pixelMatchGsfFitEndcap_*_*",
 
 #Photons
     "keep *_photons_*_*",
     "keep *_correctedPhotons_*_*",
     "keep *_convertedPhotons_*_*",
-    "keep recoTracks_ckfOutInTracksFromConversions_*_*",
-    "keep recoTracks_ckfInOutTracksFromConversions_*_*",
-    "keep recoTrackExtras_ckfOutInTracksFromConversions_*_*",
-    "keep recoTrackExtras_ckfInOutTracksFromConversions_*_*"
+    "keep *_conversionTrackCandidates_*_*",
+    "keep recoTracks_ckfOutInTracksFromConversionsBarrel_*_*",
+    "keep recoTracks_ckfInOutTracksFromConversionsBarrel_*_*",
+    "keep recoTracks_ckfOutInTracksFromConversionsEndcap_*_*",
+    "keep recoTracks_ckfInOutTracksFromConversionsEndcap_*_*",
+    "keep recoTrackExtras_ckfOutInTracksFromConversionsBarrel_*_*",
+    "keep recoTrackExtras_ckfInOutTracksFromConversionsBarrel_*_*",
+    "keep recoTrackExtras_ckfOutInTracksFromConversionsEndcap_*_*",
+    "keep recoTrackExtras_ckfInOutTracksFromConversionsEndcap_*_*"
+    "keep TrackingRecHitsOwned_ckfOutInTracksFromConversionsBarrel_*_*",
+    "keep TrackingRecHitsOwned_ckfInOutTracksFromConversionsBarrel_*_*",
+    "keep TrackingRecHitsOwned_ckfOutInTracksFromConversionsEndcap_*_*",
+    "keep TrackingRecHitsOwned_ckfInOutTracksFromConversionsEndcap_*_*"
   }	
 }	
 
@@ -55,12 +78,19 @@ block RecoEgammaAOD = {
     "keep recoTracks_egammaCtfWithMaterialTracks_*_*",
     "keep recoTracks_egammaCtfWithMaterialTracksBarrel_*_*",
     "keep recoTracks_egammaCtfWithMaterialTracksEndcap_*_*",
+    "keep recoGsfTracks_pixelMatchGsfFitBarrel_*_*",
+    "keep recoGsfTracks_pixelMatchGsfFitEndcap_*_*",
+    "keep recoGsfTrackExtras_pixelMatchGsfFitBarrel_*_*",
+    "keep recoGsfTrackExtras_pixelMatchGsfFitEndcap_*_*",
 
 #Photons
     "keep *_photons_*_*",
     "keep *_correctedPhotons_*_*",
     "keep *_convertedPhotons_*_*",
-    "keep recoTracks_ckfOutInTracksFromConversions_*_*",
-    "keep recoTracks_ckfInOutTracksFromConversions_*_*"
+    "keep *_conversionTrackCandidates_*_*",
+    "keep recoTracks_ckfOutInTracksFromConversionsBarrel_*_*",
+    "keep recoTracks_ckfInOutTracksFromConversionsBarrel_*_*",
+    "keep recoTracks_ckfOutInTracksFromConversionsEndcap_*_*",
+    "keep recoTracks_ckfInOutTracksFromConversionsEndcap_*_*"
   }
 }

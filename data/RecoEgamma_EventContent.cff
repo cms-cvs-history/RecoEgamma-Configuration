@@ -21,7 +21,6 @@ block RecoEgammaFEVT = {
     "keep *_ckfInOutTracksFromConversionsBarrel_*_*",
     "keep *_ckfOutInTracksFromConversionsEndcap_*_*",
     "keep *_ckfInOutTracksFromConversionsEndcap_*_*"
-
   }		
 }	
 
@@ -60,7 +59,7 @@ block RecoEgammaRECO = {
     "keep recoTrackExtras_ckfOutInTracksFromConversionsBarrel_*_*",
     "keep recoTrackExtras_ckfInOutTracksFromConversionsBarrel_*_*",
     "keep recoTrackExtras_ckfOutInTracksFromConversionsEndcap_*_*",
-    "keep recoTrackExtras_ckfInOutTracksFromConversionsEndcap_*_*"
+    "keep recoTrackExtras_ckfInOutTracksFromConversionsEndcap_*_*",
     "keep TrackingRecHitsOwned_ckfOutInTracksFromConversionsBarrel_*_*",
     "keep TrackingRecHitsOwned_ckfInOutTracksFromConversionsBarrel_*_*",
     "keep TrackingRecHitsOwned_ckfOutInTracksFromConversionsEndcap_*_*",

@@ -79,8 +79,6 @@ block RecoEgammaAOD = {
     "keep recoTracks_egammaCtfWithMaterialTracksEndcap_*_*",
     "keep recoGsfTracks_pixelMatchGsfFitBarrel_*_*",
     "keep recoGsfTracks_pixelMatchGsfFitEndcap_*_*",
-    "keep recoGsfTrackExtras_pixelMatchGsfFitBarrel_*_*",
-    "keep recoGsfTrackExtras_pixelMatchGsfFitEndcap_*_*",
 
 #Photons
     "keep *_photons_*_*",

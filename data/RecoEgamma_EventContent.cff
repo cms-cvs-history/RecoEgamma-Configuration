@@ -83,12 +83,13 @@ block RecoEgammaAOD = {
     "keep recoTracks_egammaCTFFinalFitWithMaterial_*_*",
     "keep recoGsfTracks_pixelMatchGsfFitBarrel_*_*",
     "keep recoGsfTracks_pixelMatchGsfFitEndcap_*_*",
+    "keep recoTrackExtras_pixelMatchGsfFitBarrel_*_*",
+    "keep recoTrackExtras_pixelMatchGsfFitEndcap_*_*",
 
 #Photons
     "keep *_photons_*_*",
     "keep *_correctedPhotons_*_*",
     "keep *_convertedPhotons_*_*",
-    "keep *_conversionTrackCandidates_*_*",
     "keep recoTracks_ckfOutInTracksFromConversionsBarrel_*_*",
     "keep recoTracks_ckfInOutTracksFromConversionsBarrel_*_*",
     "keep recoTracks_ckfOutInTracksFromConversionsEndcap_*_*",

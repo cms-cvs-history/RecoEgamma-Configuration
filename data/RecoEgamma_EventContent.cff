@@ -49,6 +49,8 @@ block RecoEgammaRECO = {
     "keep recoTrackExtras_pixelMatchGsfFitEndcap_*_*",
     "keep TrackingRecHitsOwned_pixelMatchGsfFitBarrel_*_*",
     "keep TrackingRecHitsOwned_pixelMatchGsfFitEndcap_*_*",
+    "keep recoGsfTracksTrajectorySeedsuintedmOneToOneedmAssociationMap_pixelMatchGsfFitBarrel_*_*",
+    "keep recoGsfTracksTrajectorySeedsuintedmOneToOneedmAssociationMap_pixelMatchGsfFitEndcap_*_*",
 
 #Photons
     "keep *_photons_*_*",

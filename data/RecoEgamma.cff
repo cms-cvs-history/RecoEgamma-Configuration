@@ -3,5 +3,6 @@ include "RecoEgamma/EgammaPhotonProducers/data/photonSequence.cff"
 include "RecoEgamma/EgammaPhotonProducers/data/convertedPhotonSequence.cff"
 
 sequence egammareco = {electronSequence,photonSequence,convertedPhotonSequence}
+sequence egammareco_woConvPhotons = {electronSequence,photonSequence}
 
 #

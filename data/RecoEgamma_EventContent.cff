@@ -8,7 +8,7 @@ block RecoEgammaFEVT = {
     "keep *_egammaCtfWithMaterialTracksBarrel_*_*",
     "keep *_egammaCtfWithMaterialTracksEndcap_*_*",
     "keep *_egammaCTFFinalFitWithMaterial_*_*",
-    "keep *_siStripElectrons_*_*",
+    "keep recoSiStripElectrons_siStripElectrons_*_*",
     "keep *_electronPixelSeeds_*_*",
     "keep *_pixelMatchGsfFitBarrel_*_*",
     "keep *_pixelMatchGsfFitEndcap_*_*",

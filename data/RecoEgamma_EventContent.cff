@@ -3,15 +3,8 @@ block RecoEgammaFEVT = {
   untracked vstring outputCommands = {
 #Electrons
     "keep *_pixelMatchGsfElectrons_*_*",
-    "keep *_siStripElectronToTrackAssociator_*_*",
-    "keep *_egammaCtfWithMaterialTracks_*_*",
-    "keep *_egammaCtfWithMaterialTracksBarrel_*_*",
-    "keep *_egammaCtfWithMaterialTracksEndcap_*_*",
-    "keep *_egammaCTFFinalFitWithMaterial_*_*",
-    "keep recoSiStripElectrons_siStripElectrons_*_*",
+    "keep *_pixelMatchGsfFit_*_*",
     "keep *_electronPixelSeeds_*_*",
-    "keep *_pixelMatchGsfFitBarrel_*_*",
-    "keep *_pixelMatchGsfFitEndcap_*_*",
 
 #Photons
     "keep *_photons_*_*",
@@ -28,33 +21,16 @@ block RecoEgammaFEVT = {
 block RecoEgammaRECO = {
   untracked vstring outputCommands = {
 #Electrons
-    "keep *_pixelMatchGsfElectrons_*_*",
-    "keep *_siStripElectronToTrackAssociator_*_*",
-    "keep recoSiStripElectrons_siStripElectrons_*_*",
-    "keep recoTracks_egammaCtfWithMaterialTracks_*_*",
-    "keep recoTracks_egammaCtfWithMaterialTracksBarrel_*_*",
-    "keep recoTracks_egammaCtfWithMaterialTracksEndcap_*_*",
-    "keep recoTracks_egammaCTFFinalFitWithMaterial_*_*",
-    "keep recoTrackExtras_egammaCtfWithMaterialTracks_*_*",
-    "keep recoTrackExtras_egammaCtfWithMaterialTracksBarrel_*_*",
-    "keep recoTrackExtras_egammaCtfWithMaterialTracksEndcap_*_*",
-    "keep recoTrackExtras_egammaCTFFinalFitWithMaterial_*_*",
-    "keep *_electronPixelSeeds_*_*",
-    "keep recoGsfTracks_pixelMatchGsfFitBarrel_*_*",
-    "keep recoGsfTracks_pixelMatchGsfFitEndcap_*_*",
-    "keep recoGsfTrackExtras_pixelMatchGsfFitBarrel_*_*",
-    "keep recoGsfTrackExtras_pixelMatchGsfFitEndcap_*_*",
-    "keep recoTrackExtras_pixelMatchGsfFitBarrel_*_*",
-    "keep recoTrackExtras_pixelMatchGsfFitEndcap_*_*",
-    "keep TrackingRecHitsOwned_pixelMatchGsfFitBarrel_*_*",
-    "keep TrackingRecHitsOwned_pixelMatchGsfFitEndcap_*_*",
-    "keep recoGsfTracksTrajectorySeedsuintedmOneToOneedmAssociationMap_pixelMatchGsfFitBarrel_*_*",
-    "keep recoGsfTracksTrajectorySeedsuintedmOneToOneedmAssociationMap_pixelMatchGsfFitEndcap_*_*",
+    "keep recoPixelMatchGsfElectrons_pixelMatchGsfElectrons_*_*",
+    "keep recoGsfTracks_pixelMatchGsfFit_*_*",
+    "keep recoGsfTrackExtras_pixelMatchGsfFit_*_*",
+    "keep recoTrackExtras_pixelMatchGsfFit_*_*",
+    "keep TrackingRecHitsOwned_pixelMatchGsfFit_*_*",
+    "keep recoElectronPixelSeeds_electronPixelSeeds_*_*",
 
 #Photons
-    "keep *_photons_*_*",
-    "keep *_correctedPhotons_*_*",
-    "keep *_convertedPhotons_*_*",
+    "keep recoPhotons_correctedPhotons_*_*",
+    "keep recoConvertedPhotons_convertedPhotons_*_*",
     "keep recoTracks_ckfOutInTracksFromConversionsBarrel_*_*",
     "keep recoTracks_ckfInOutTracksFromConversionsBarrel_*_*",
     "keep recoTracks_ckfOutInTracksFromConversionsEndcap_*_*",
@@ -74,21 +50,12 @@ block RecoEgammaRECO = {
 block RecoEgammaAOD = {
   untracked vstring outputCommands = {
 #Electrons
-    "keep *_pixelMatchGsfElectrons_*_*",
-    "keep *_siStripElectronToTrackAssociator_*_*",
-    "keep recoSiStripElectrons_siStripElectrons_*_*",
-    "keep recoTracks_egammaCtfWithMaterialTracks_*_*",
-    "keep recoTracks_egammaCtfWithMaterialTracksBarrel_*_*",
-    "keep recoTracks_egammaCtfWithMaterialTracksEndcap_*_*",
-    "keep recoTracks_egammaCTFFinalFitWithMaterial_*_*",
-    "keep recoGsfTracks_pixelMatchGsfFitBarrel_*_*",
-    "keep recoGsfTracks_pixelMatchGsfFitEndcap_*_*",
-
+    "keep recoPixelMatchGsfElectrons_pixelMatchGsfElectrons_*_*",
+    "keep recoGsfTracks_pixelMatchGsfFit_*_*",
 
 #Photons
-    "keep *_photons_*_*",
-    "keep *_correctedPhotons_*_*",
-    "keep *_convertedPhotons_*_*",
+    "keep recoPhotons_correctedPhotons_*_*",
+    "keep recoConvertedPhotons_convertedPhotons_*_*",
     "keep recoTracks_ckfOutInTracksFromConversionsBarrel_*_*",
     "keep recoTracks_ckfInOutTracksFromConversionsBarrel_*_*",
     "keep recoTracks_ckfOutInTracksFromConversionsEndcap_*_*",

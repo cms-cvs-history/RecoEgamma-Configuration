@@ -1,8 +1,8 @@
 include "RecoEgamma/EgammaElectronProducers/data/electronSequence.cff"
 include "RecoEgamma/EgammaPhotonProducers/data/photonSequence.cff"
-include "RecoEgamma/EgammaPhotonProducers/data/convertedPhotonSequence.cff"
+include "RecoEgamma/EgammaPhotonProducers/data/photonsWithConversionsSequence.cff"
 
-sequence egammareco = {electronSequence,photonSequence,convertedPhotonSequence}
+sequence egammareco = {electronSequence, photonSequence,photonsWithConversionsSequence}
 sequence egammareco_woConvPhotons = {electronSequence,photonSequence}
 
 #

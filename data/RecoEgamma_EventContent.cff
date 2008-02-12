@@ -9,10 +9,8 @@ block RecoEgammaFEVT = {
 #Photons
     "keep *_conversions_*_*",
     "keep *_correctedPhotons_*_*",
-    "keep *_ckfOutInTracksFromConversionsBarrel_*_*",
-    "keep *_ckfInOutTracksFromConversionsBarrel_*_*",
-    "keep *_ckfOutInTracksFromConversionsEndcap_*_*",
-    "keep *_ckfInOutTracksFromConversionsEndcap_*_*"
+    "keep *_ckfOutInTracksFromConversions_*_*",
+    "keep *_ckfInOutTracksFromConversions_*_*"
   }		
 }	
 
@@ -30,18 +28,12 @@ block RecoEgammaRECO = {
 #Photons
     "keep recoPhotons_correctedPhotonsWithConversions_*_*",
     "keep recoConversions_conversions_*_*",
-    "keep recoTracks_ckfOutInTracksFromConversionsBarrel_*_*",
-    "keep recoTracks_ckfInOutTracksFromConversionsBarrel_*_*",
-    "keep recoTracks_ckfOutInTracksFromConversionsEndcap_*_*",
-    "keep recoTracks_ckfInOutTracksFromConversionsEndcap_*_*",
-    "keep recoTrackExtras_ckfOutInTracksFromConversionsBarrel_*_*",
-    "keep recoTrackExtras_ckfInOutTracksFromConversionsBarrel_*_*",
-    "keep recoTrackExtras_ckfOutInTracksFromConversionsEndcap_*_*",
-    "keep recoTrackExtras_ckfInOutTracksFromConversionsEndcap_*_*",
-    "keep TrackingRecHitsOwned_ckfOutInTracksFromConversionsBarrel_*_*",
-    "keep TrackingRecHitsOwned_ckfInOutTracksFromConversionsBarrel_*_*",
-    "keep TrackingRecHitsOwned_ckfOutInTracksFromConversionsEndcap_*_*",
-    "keep TrackingRecHitsOwned_ckfInOutTracksFromConversionsEndcap_*_*"
+    "keep recoTracks_ckfOutInTracksFromConversions_*_*",
+    "keep recoTracks_ckfInOutTracksFromConversions_*_*",
+    "keep recoTrackExtras_ckfOutInTracksFromConversions_*_*",
+    "keep recoTrackExtras_ckfInOutTracksFromConversions_*_*",
+    "keep TrackingRecHitsOwned_ckfOutInTracksFromConversions_*_*",
+    "keep TrackingRecHitsOwned_ckfInOutTracksFromConversions_*_*"
   }	
 }	
 
@@ -55,9 +47,7 @@ block RecoEgammaAOD = {
 #Photons
     "keep recoPhotons_correctedPhotonsWithConversions_*_*",
     "keep recoConversions_conversions_*_*",
-    "keep recoTracks_ckfOutInTracksFromConversionsBarrel_*_*",
-    "keep recoTracks_ckfInOutTracksFromConversionsBarrel_*_*",
-    "keep recoTracks_ckfOutInTracksFromConversionsEndcap_*_*",
-    "keep recoTracks_ckfInOutTracksFromConversionsEndcap_*_*"
+    "keep recoTracks_ckfOutInTracksFromConversions_*_*",
+    "keep recoTracks_ckfInOutTracksFromConversions_*_*"
   }
 }

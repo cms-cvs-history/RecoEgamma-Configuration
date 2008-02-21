@@ -8,7 +8,7 @@ block RecoEgammaFEVT = {
 
 #Photons
     "keep *_conversions_*_*",
-    "keep *_correctedPhotons_*_*",
+    "keep *_photons_*_*",
     "keep *_ckfOutInTracksFromConversions_*_*",
     "keep *_ckfInOutTracksFromConversions_*_*"
   }		
@@ -26,7 +26,7 @@ block RecoEgammaRECO = {
     "keep recoElectronPixelSeeds_electronPixelSeeds_*_*",
 
 #Photons
-    "keep recoPhotons_correctedPhotons_*_*",
+    "keep recoPhotons_photons_*_*",
     "keep recoConversions_conversions_*_*",
     "keep recoTracks_ckfOutInTracksFromConversions_*_*",
     "keep recoTracks_ckfInOutTracksFromConversions_*_*",
@@ -45,7 +45,7 @@ block RecoEgammaAOD = {
     "keep recoGsfTracks_pixelMatchGsfFit_*_*",
 
 #Photons
-    "keep recoPhotons_correctedPhotons_*_*",
+    "keep recoPhotons_photons_*_*",
     "keep recoConversions_conversions_*_*",
     "keep recoTracks_ckfOutInTracksFromConversions_*_*",
     "keep recoTracks_ckfInOutTracksFromConversions_*_*"

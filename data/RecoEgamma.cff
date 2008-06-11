@@ -1,9 +1,16 @@
 include "RecoEgamma/EgammaElectronProducers/data/electronSequence.cff"
 include "RecoEgamma/EgammaPhotonProducers/data/photonSequence.cff"
 include "RecoEgamma/EgammaPhotonProducers/data/conversionSequence.cff"
+include "RecoEgamma/EgammaIsolationAlgos/data/egammaIsolationSequence.cff"
+inclued "RecoEgamma/PhotonIdentification/data/photonId.cff"
 
-
-sequence egammareco = { electronSequence,conversionSequence,photonSequence}
+sequence egammareco = {electronSequence,conversionSequence,photonSequence}
+sequence egammarecoFull = {egammareco,egammaIsolationSequence,photonIDsequence}
 sequence egammareco_woConvPhotons = {electronSequence,photonSequence}
+sequence egammareco_withIsolation = {egammareco,egammaIsolationSequence}
+sequence egammareco_withIsolation_woConvPhotons = {egammareco_woConvPhotons,egammaIsolationSequence}
+sequence egammareco_withPhotonID = {egammareco,photonIDSequence}
+
+
 
 #

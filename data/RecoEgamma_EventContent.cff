@@ -22,7 +22,8 @@ block RecoEgammaFEVT = {
     "keep *_gamIsoFromDepsTk_*_*",
     "keep *_gamIsoDepositEcalFromHits_*_*",
     "keep *_gamIsoDepositHcalFromHits_*_*",
-    "keep *_gamIsoDepositTk_*_*"
+    "keep *_gamIsoDepositTk_*_*",
+    "keep *_PhotonIDProd_*_*"
   }		
 }	
 
@@ -58,7 +59,8 @@ block RecoEgammaRECO = {
     "keep doubleedmValueMap_gamIsoFromDepsTk_*_*",
     "keep recoIsoDepositedmValueMap_gamIsoDepositEcalFromHits_*_*",
     "keep recoIsoDepositedmValueMap_gamIsoDepositHcalFromHits_*_*",
-    "keep recoIsoDepositedmValueMap_gamIsoDepositTk_*_*"
+    "keep recoIsoDepositedmValueMap_gamIsoDepositTk_*_*",
+    "keep *_PhotonIDProd_*_*"	
 
   }	
 }	
@@ -86,7 +88,8 @@ block RecoEgammaAOD = {
     "keep recoIsoDepositedmValueMap_gamIsoDepositTk_*_*",
     "keep doubleedmValueMap_gamIsoFromDepsEcalFromHits_*_*",
     "keep doubleedmValueMap_gamIsoFromDepsHcalFromHits_*_*",
-    "keep doubleedmValueMap_gamIsoFromDepsTk_*_*"
+    "keep doubleedmValueMap_gamIsoFromDepsTk_*_*",
+    "keep *_PhotonIDProd_*_*"
 
   }
 }

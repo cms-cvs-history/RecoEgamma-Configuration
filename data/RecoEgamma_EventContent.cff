@@ -80,7 +80,7 @@ block RecoEgammaAOD = {
     "keep recoPhotons_photons_*_*",
     "keep recoConversions_conversions_*_*",
     "keep recoTracks_ckfOutInTracksFromConversions_*_*",
-    "keep recoTracks_ckfInOutTracksFromConversions_*_*".
+    "keep recoTracks_ckfInOutTracksFromConversions_*_*",
     "keep recoIsoDepositedmValueMap_gamIsoDepositEcalFromHits_*_*",
     "keep recoIsoDepositedmValueMap_gamIsoDepositHcalFromHits_*_*",
     "keep recoIsoDepositedmValueMap_gamIsoDepositTk_*_*",

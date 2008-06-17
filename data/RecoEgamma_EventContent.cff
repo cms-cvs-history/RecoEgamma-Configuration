@@ -11,6 +11,10 @@ block RecoEgammaFEVT = {
     "keep *_eleIsoDepositEcalFromHits_*_*",
     "keep *_eleIsoDepositHcalFromHits_*_*",
     "keep *_eleIsoDepositTk_*_*",
+    "keep *_eidRobustLoose_*_*",
+    "keep *_eidRobustTight_*_*",
+    "keep *_eidLoose_*_*",
+    "keep *_eidTight_*_*",
 
 #Photons
     "keep *_conversions_*_*",
@@ -43,6 +47,11 @@ block RecoEgammaRECO = {
     "keep recoIsoDepositedmValueMap_eleIsoDepositEcalFromHits_*_*",
     "keep recoIsoDepositedmValueMap_eleIsoDepositHcalFromHits_*_*",
     "keep recoIsoDepositedmValueMap_eleIsoDepositTk_*_*",
+    "keep floatedmValueMap_eidRobustLoose_*_*",
+    "keep floatedmValueMap_eidRobustTight_*_*",
+    "keep floatedmValueMap_eidLoose_*_*",
+    "keep floatedmValueMap_eidTight_*_*",
+
 
 
 #Photons
@@ -77,7 +86,10 @@ block RecoEgammaAOD = {
     "keep recoIsoDepositedmValueMap_eleIsoDepositEcalFromHits_*_*",
     "keep recoIsoDepositedmValueMap_eleIsoDepositHcalFromHits_*_*",
     "keep recoIsoDepositedmValueMap_eleIsoDepositTk_*_*",
-
+    "keep floatedmValueMap_eidRobustLoose_*_*",
+    "keep floatedmValueMap_eidRobustTight_*_*",
+    "keep floatedmValueMap_eidLoose_*_*",
+    "keep floatedmValueMap_eidTight_*_*",
 #Photons
     "keep recoPhotons_photons_*_*",
     "keep recoConversions_conversions_*_*",

@@ -1,0 +1,24 @@
+include "RecoEgamma/EgammaElectronProducers/data/electronSequence.cff"
+include "RecoEgamma/EgammaElectronProducers/data/cosmicElectronSequence.cff"
+include "RecoEgamma/EgammaPhotonProducers/data/photonSequence.cff"
+include "RecoEgamma/EgammaPhotonProducers/data/cosmicPhotonSequence.cff"
+include "RecoEgamma/EgammaPhotonProducers/data/conversionSequence.cff"
+include "RecoEgamma/EgammaIsolationAlgos/data/egammaIsolationSequence.cff"
+include "RecoEgamma/PhotonIdentification/data/photonId.cff"
+include "RecoEgamma/ElectronIdentification/data/electronIdSequence.cff"
+include "RecoEgamma/EgammaIsolationAlgos/data/gamIsolationSequence.cff"
+include "RecoEgamma/EgammaIsolationAlgos/data/eleIsolationSequence.cff"
+
+
+sequence egammarecoCosmics = {cosmicElectronSequence,cosmicPhotonSequence}
+sequence egammareco = {electronSequence,conversionSequence,photonSequence}
+sequence egammarecoFull = {egammareco,egammaIsolationSequence,photonIDSequence,eIdSequence}
+sequence egammarecoFullSmall = {egammareco,eleIsolationSequence,photonIDSequence,eIdSequence}
+sequence egammareco_woConvPhotons = {electronSequence,photonSequence}
+sequence egammareco_withIsolation = {egammareco,egammaIsolationSequence}
+sequence egammareco_withIsolation_woConvPhotons = {egammareco_woConvPhotons,egammaIsolationSequence}
+sequence egammareco_withPhotonID = {egammareco,photonIDSequence}
+sequence egammareco_withElectronID = {egammareco,eIdSequence}
+
+
+

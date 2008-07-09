@@ -1,9 +1,6 @@
-include "RecoEgamma/EgammaElectronProducers/data/electronSequence.cff"
 include "RecoEgamma/EgammaElectronProducers/data/cosmicElectronSequence.cff"
-include "RecoEgamma/EgammaPhotonProducers/data/photonSequence.cff"
 include "RecoEgamma/EgammaPhotonProducers/data/cosmicPhotonSequence.cff"
-include "RecoEgamma/EgammaPhotonProducers/data/conversionSequence.cff"
 
-sequence egammarecoCosmics = {cosmicElectronSequence,cosmicPhotonSequence}
-sequence egammareco = {electronSequence,conversionSequence,photonSequence}
+sequence egammarecoCosmics_woConv = {cosmicElectronSequence,cosmicPhotonSequence_woConv}
+sequence egammarecoCosmics = {cosmicElectronSequence, cosmicPhotonSequence}
 

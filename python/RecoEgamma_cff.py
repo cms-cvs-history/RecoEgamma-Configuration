@@ -4,6 +4,7 @@ from RecoEgamma.EgammaElectronProducers.electronSequence_cff import *
 from RecoEgamma.EgammaPhotonProducers.photonSequence_cff import *
 from RecoEgamma.EgammaPhotonProducers.conversionSequence_cff import *
 from RecoEgamma.EgammaPhotonProducers.conversionTrackSequence_cff import *
+from RecoEgamma.EgammaPhotonProducers.conversionTrackSequenceForReReco_cff import *
 from RecoEgamma.EgammaPhotonProducers.trackerOnlyConversionSequence_cff import *
 from RecoEgamma.EgammaIsolationAlgos.egammaIsolationSequence_cff import *
 from RecoEgamma.EgammaIsolationAlgos.interestingEgammaIsoDetIdsSequence_cff import *
@@ -22,3 +23,5 @@ egammareco_withPhotonID = cms.Sequence(egammareco*photonIDSequence)
 egammareco_withElectronID = cms.Sequence(egammareco*eIdSequence)
 
 egammarecoFull_woHFElectrons = cms.Sequence(egammareco*interestingEgammaIsoDetIds*photonIDSequence*eIdSequence)
+photonReReconstruction = cms.Sequence(ckfTracksFromConversions*conversionSequence*photonSequence*photonIDSequence)
+photonAndAllConversionsReReconstruction = cms.Sequence(conversionTrackSequenceForReReco*conversionSequence*photonSequence*photonIDSequence)
